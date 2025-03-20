@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulario de Encuesta</title>
+  </head>
+  <body>
+    <h1>Encuesta</h1>
+    <form action="/ruta-para-enviar-datos" method="post">
+      <!-- Pregunta 1: Selección múltiple -->
+      <div>
+        <label for="opciones">¿Que musica escuchas?</label><br>
+        <select id="opciones" name="productos[]" multiple required>
+          <option value="Cumbia">Cumbia</option>
+          <option value="Clasica">Clasica</option>
+          <option value="Electronica">Electronica</option>
+          <option value="Bachata">Bachata</option>
+        </select>
+      </div>
+
+      <!-- Pregunta 2: Botones de radio -->
+      <div>
+        <p>¿Como calificarias la encuesta?</p>
+        <label>
+          <in

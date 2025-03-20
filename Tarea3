@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Imagen en HTML</title>
+  </head>
+  <body>
+    <h1>Mi Imagen</h1>
+    <img src="https://img.freepik.com/foto-gratis/al-atardecer-playa-tropical-mar-palmera-coco_74190-1075.jpg" alt="Atardecer">
+  </body>
+</html>
